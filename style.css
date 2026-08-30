@@ -457,3 +457,27 @@ footer {
 .github-link:hover {
     opacity: 0.5;
 }
+.project-links {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.project-links a {
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 4px;
+}
+
+.project-links a:hover {
+    opacity: 0.6;
+}.skill-status {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
